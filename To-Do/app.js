@@ -33,8 +33,8 @@ function showTaskList() {
     const id = taskList[i][0];
 
     const task = `<div class="p-2 max-w-screen-md flex justify-center mx-auto mt-5 border-2 border-black rounded-md">
-            <p class="p-3 text-2xl text-center mr-5 flex-1">${taskList[i][1]}</p>
-            <p class="p-3 text-2xl text-center mr-5 flex-1">${taskList[i][2]}</p>
+            <p class="flex-1 p-3 text-xl text-center mr-5 flex-1">${taskList[i][1]}</p>
+            <p class="flex-1 p-3 text-xl text-center mr-5 flex-1">${taskList[i][2]}</p>
             <button onclick="deleteTask(${id})" id="delete-btn" class="w-[6rem] p-3 text-xl text-center rounded-md ml-5 bg-red-500 text-white hover:bg-red-700">Delete</button>
         </div>`;
 
